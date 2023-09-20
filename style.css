@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Tektur:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 00;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Tektur', cursive;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-size: cover;
+   
+
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('./fireworks-1953253_1280.jpg');
+    background-position: center;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+p{
+    font-size: 13px;
+}
+.newyear{
+    font-family: 'inspiration',cursive;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top:30px
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align:center ;
+    background-color:  
+
+}
+.box h2{
+    font-size: 30px;
+
+
+}
+.box small{
+    font: 10px;
+}
+@media(min-width:768px){
+    .box{
+        width: 150px;
+    height: 150px;
+    text-align:center ;
+    }
+    .newyear{
+        font-size: 150px;
+    }
+}
+@media (min-width:576px) {  
+    p{
+        font-size: 25px;
+
+    }
+    .box h1{
+        font-size: 150px;
+    }
+    .box small{
+        font-size: 15px;
+    }
+}
+
